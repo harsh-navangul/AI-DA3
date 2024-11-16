@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-), How can I help for your next Trip?",
+        "Hello, How can I help for your next Trip?",
+        "Hi there, what can I do for your next Trip?",
+        "Hi there, how can I help for your next Trip?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, Happy Journey",
+        "Have a Safe Trip",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "trip",
+      "patterns": [
+        "I wanted a package for my trip to Manali",
+        "I am planning for a trip to Manali",
+        "Do you plan a trip to Manali?"
+      ],
+      "responses": [
+        "Yes, I do have a trip package to Manali!, May I know for How many days you are Planning",
+        "Yes, we can plan for a Trip to Manali. May I know for How many days' package you need?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "days",
+      "patterns": [
+        "1 Day",
+        "2 Days",
+        "3 Days",
+		"4 Days",
+		"5 Days",
+		"6 Days",
+		"7 Days",
+		"8 Days",
+		"9 Days",
+		"10 Days"
+		
+      ],
+      "responses": [
+        "Sure, We have! May I know in which Month are you planning for the trip?",
+        "Sure, Please enter your journey Month"
+      ]
+    },
+    {
+      "tag": "Month",
+      "patterns": [
+        "Janurary",
+        "February",
+		"March",
+		"April",
+		"December",
+        "May"
+		
+      ],
+      "responses": [
+        "Sure, You can have a stay at Hotel Mount View",
+        "Sure, You can have a stay at Hotel Harsh Paradise"
+      ]
+    }
+  ]
+}
